@@ -1,0 +1,39 @@
+{
+    "name": "imanghafoori/laravel-nice-middlewares",
+    "description": "This is a plug-in for laravel-middlewarize",
+    "keywords": ["laravel", "laravel-middlewares", "laravel5-package", "PHP", "laravel5"],
+    "license": "MIT",
+    "homepage": "https://github.com/imanghafoori1/laravel-nice-middlewares",
+    "authors": [
+        {
+            "name": "Iman Ghafoori",
+            "email": "imanghafoori1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "imanghafoori/laravel-middlewarize": "^1.*",
+        "illuminate/support": "5.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Imanghafoori\\NiceMiddlewaresTests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "mockery/mockery": "^0.9.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imanghafoori\\NiceMiddlewares\\": "src"
+        }
+    },
+    "suggest": {
+        "imanghafoori/laravel-heyman": "It allows to write expressive code to authorize, validate and authenticate.",
+        "imanghafoori/laravel-decorator": "Allows you to easily apply the decorator pattern.",
+        "imanghafoori/laravel-terminator": "Gives you opportunity to refactor your controllers.",
+        "imanghafoori/laravel-anypass": " Allows you login with any password in local environment.",
+        "imanghafoori/laravel-masterpass": "You can easily set a master password without code change."
+    }
+}
