@@ -1,8 +1,8 @@
 <?php
 
+namespace Imanghafoori\NiceMiddlewares;
+
 use Illuminate\Support\ServiceProvider;
-use Imanghafoori\NiceMiddlewares\Memoizer;
-use Imanghafoori\NiceMiddlewares\CacheMiddleware;
 
 class NiceMiddlewaresServiceProvider extends ServiceProvider
 {
