@@ -6,9 +6,10 @@ class Memoizer
 {
     static $value = [];
 
-    public function handle($data, $next, $key = '')
+    public function handle($data, $next, $key)
     {
-        if (array_key_exists(self::$value[$key])) {
+        $key = (string)$key;
+        if (array_key_exists($key, self::$value)) {
             return self::$value[$key];
         }
 
